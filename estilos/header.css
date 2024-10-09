@@ -1,0 +1,36 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 6em;
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 40px;
+    padding-left: 6em;
+}
+
+.navegacaolinks {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.navegacaolinks:hover {
+    color: black;
+}
+
+.container__navegacao {
+    background-color: var(--bordo);
+    color: var(--branco);
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    margin-left: 1em;
+}

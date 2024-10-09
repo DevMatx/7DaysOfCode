@@ -1,0 +1,17 @@
+@import url("header.css");
+@import url("section1.css");
+@import url("section2.css");
+@import url("vagas.css");
+@import url("card.css");
+@import url("oportunidades.css");
+@import url("section3.css");
+
+
+:root {
+    --cinza: #667085;
+    --branco: #ffffff;
+    --preto: #101828;
+    --bordo: #8E2424;
+    --fonte-principal: "Inter";
+    --vermelho-rgba: rgba(142, 36, 36, 0.05);
+}

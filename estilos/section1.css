@@ -1,0 +1,29 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 96px auto;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    gap: 24px;
+}
+
+.span__container {
+    color: var(--bordo);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.container__titulo {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.container__paragrafo {
+    margin:  0 auto;
+    width: 60%;
+    color: var(--cinza);
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+}

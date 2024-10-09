@@ -1,0 +1,35 @@
+.card {
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 64px 60px;
+    background-color: var(--vermelho-rgba);
+    border-radius: 12px;
+    align-items: center;
+    margin: 0 70px;
+    margin-bottom: 96px;
+}
+
+.span__card {
+    color: var(--bordo);
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.card-titulo {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.descricao-foto-card {
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.descricao_card {
+    color: var(--cinza);
+    font-size: 14px;
+}
